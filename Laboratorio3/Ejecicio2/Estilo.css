@@ -1,0 +1,45 @@
+p{
+    color:red;
+    font-size:50;
+} /* le doy color a todos los parrafos.*/
+
+h1,h4{
+    color:blue;
+    
+}
+
+p.negrita{
+    font-weight: bold;
+}/* parrafos clase negrita, que aparte de red, tiene weith bold*/
+
+.colorVerde{/* creo esta clase color verde*/
+    color:green;
+}
+
+input{
+    background-color: honeydew;
+}
+
+.boton{
+    background-color: #4CaF50;
+    color:white;
+    font-size: 16px;   
+    margin: 4px 0px 4px 10px; 
+    border: none;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;/*paso la manita por arriba*/
+    border-radius: 50px;
+    padding-top: 0;
+}
+
+.boton:hover{
+    background-color: #255827;
+}
+
+.rojo{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 50px;
+}

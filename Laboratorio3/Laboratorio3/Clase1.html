@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimerClaseLabo3</title>
+    <h4>BuenasGente!!</h4>
+    <hr>
+    <input type="text"><!---ya tiene este valor por defecto, no hace falta el type text-->
+    <input type="button" value="Hola">
+    <br>
+    <h6>Contraseña!!</h6>
+    <input type="password">
+    <input type="file" >
+    <!---TIPO TEXT PROPIEDADES BASICAS:-->
+    <h5>PROPIEDADES TEXT!!</h5>
+    <br>
+    <input type="text" value="Hola" maxlength="6" size="30" id="txtNombre" name="txtNombre">
+    <h5>PROPIEDADES CHECKBOX!!</h5>
+    <br>
+    <label>DNI</label>
+    <input type="checkbox" name="chk1" value="1"/>
+    <br><!--Se ponen uno al lado del otro por defecto si no coloco br, son componentes inblock, ej los h1, son inline y pueden entrar en una sola linea-->
+    <label>ES DE INDEPENDIENTE</label>
+    <input type="checkbox" name="chk2" value="2"/>
+    <br>
+    <label>TUVO COVID?</label>
+    <input type="checkbox" name="chk3" value="3"/>
+    <h5>PROPIEDADES RADIO!!</h5>
+    <br>
+    <br>
+    <label>quiero comer</label>
+    <input type="radio" name="RAD1" value="1"/>
+    <br><!--solo puedo elegir uno , tiene que tener el mismo name para tomar esto.-->
+    <label>no tengo hambre</label>
+    <input type="radio" name="RAD1" value="2"/>
+    <br>
+    <label>TUVO hambre?</label>
+    <input type="radio" name="RAD1" value="3"/>
+    <br>
+    <h5>INPUT TIPO HIDDEN!!</h5>
+    <br>
+    <input type="hidden" placeholder="Ingresa tu nombre" value="Hola">
+    <input type="image" src="./asd.jpg/">
+    <br>
+
+    <textarea name="" id="" >DADADADA COMO VIENE ESTA MAQUINITA DE LA FALCIONETA BRO</textarea>
+    <br>
+    <br><!--Lista deplegable, puedo usar el value para identificar el valor que indica el usuario selected para default-->
+    <select>
+        <optgroup label="Piolas"><!--creo subgrupos, es para ordenar categorias-->
+            <option value="opcion2">DULCE</option>
+
+        </optgroup>
+        <optgroup label="Ortivas">
+            <option value="opcion2">AMARGO</option>
+            <option value="opcion1">SALADO</option>
+            <option value="opcion3" selected>NADA </option>
+
+        </optgroup>
+        
+
+    </select>
+
+
+
+
+    <h5>TABLAS</h5>
+    <!---Bueno HR PONE UNA LINEA EN LA PAGINA, Y BR SALTO DE LINEA-->
+    <table border="1"><!--Tiene atributo, siempre minuscula y comilla simple o doble.-->
+        <!---DEFINO UNA TABLA-->
+        <tbody>
+
+            <thead> 
+                <th>Nombre</th><!---esto seria la cabezera?-->
+                <th>Edad</th>
+            </thead>
+           
+                <tr>
+                    <td>Daniel</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>>Julio </td>
+                    <td>>18 </td>
+                </tr>
+        </tbody>
+        
+    </table>
+    <h6>BuenasGente!!</h6>
+    <br> 
+    <h1>BuenasGente!!</h1>
+    <p>Buenas gente como estan, esto es un parrafo, que si no entra en pantalla
+         lo tira para abajo, no empuja y se acomoda para que entre bien</p>
+</head>
+<body>
+    
+</body>
+</html>

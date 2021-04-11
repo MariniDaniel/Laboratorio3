@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+
+
+    
+    <script>
+
+        function Mostrar(){
+            var usuario = document.getElementById("usr").value;
+            var contraseña = document.getElementById("pass").value;
+            alert(usuario+" "+contraseña);
+            
+        }
+
+        function Limpiar(){
+            var usuario = document.getElementById("usr").value ="";
+            var contraseña = document.getElementById("pass").value="";
+        }
+
+
+    </script>
+
+</head>
+
+<body>
+
+    <fieldset >
+     <label style="color: blue;">Login:</label>
+     <br>
+     <br>
+     <label style="color: blue;">Usuario:</label>
+     <br>
+     <input id="usr" type="text" name="txtUsr"/>
+     <br>
+     <label style="color: blue;">Contraseña:</label>
+     <br>
+     <input type="password" id="pass" type="text" name="txtPass"/>
+     <br>
+     <input type="checkbox" name="chk1" value="1"/>
+     <label style="color: blue;">Recordar Usuario y contraseña</label>
+     <br>
+     <input type="submit" value="Enviar" onclick="Mostrar()" /> 
+     <input type="reset" value="Limpiar" onclick="Limpiar()"/>
+
+    </fieldset>
+
+     
+</body>
+
+
+</html>
